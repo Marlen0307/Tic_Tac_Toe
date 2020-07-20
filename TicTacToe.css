@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+canvas#GameBoard{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+table{
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    border-spacing: 0px;
+}
+td{
+    width: 387px;
+    height: 258px; 
+    border-spacing: 0px;
+}
+table canvas{
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 385px;
+    height: 250px;
+}
+div#messageArea{
+    position: absolute;
+    left: 15%;
+    font-size: 20px;
+
+}
