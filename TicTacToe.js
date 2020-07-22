@@ -53,10 +53,10 @@ function drawX(e){
     gameState.clicks++;
     gameState.player.push(canvasId);
     var context = canvas.getContext("2d");
-    context.fillStyle = "red";
     context.beginPath();
     context.moveTo(70,25);
     context.lineTo(220,120);
+    context.strokeStyle = "black"
     context.stroke();
     context.beginPath();
     context.moveTo(70,120);
@@ -89,6 +89,7 @@ function drawO (){
     var context = canvas.getContext("2d");
     context.beginPath()
     context.arc(150,80,60,0,2*Math.PI,true);
+    context.strokeStyle = "red";
     context.stroke();
     if(gameState.cpu.length>=3){
     if(checkWinner(gameState.cpu)){
